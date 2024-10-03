@@ -1,4 +1,4 @@
-/* .container{
+.container{
     display: flex;
     justify-content: center;
 }
@@ -24,9 +24,15 @@
     
 
 }
-.disply h3{
-    flex-wrap:wrap;
+.display h3 {
+    width: 100%;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    text-align: right;
+    margin: 0;
+    padding-right: 10px;  
 }
+
 .numbers{
     border: 2px solid black;
     margin: 10px;
@@ -45,7 +51,7 @@
     background-color: gray;
     color:white;
     /* text-align: center; */
-    /* padding-top: 10px; 
+    /* padding-top: 10px; */
     font-size:xx-large;           
     display: flex;      
     align-items: center;   
@@ -67,96 +73,9 @@
     width:350px;
     border:2px solid black;
     margin: 5px;
+    background-color: #4CAF50; 
+    color: white;
     
 }
- */
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* Full viewport height for centering */
-}
 
-.border {
-    height: 590px;
-    width: 390px;
-    border: 2px solid black;
-    background-color: black;
-    border-radius: 5px;
-}
-
-.display {
-    width: 370px;
-    height: 100px;
-    border: 2px solid black;
-    margin: 9px;
-    background-color: aliceblue;
-    font-size: xx-large;
-    display: flex;
-    align-items: center;
-    justify-content: right;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-}
-
-/* Corrected selector for wrapping */
-.display h3 {
-    width: 100%;
-    word-wrap: break-word; /* Ensure long text wraps */
-    white-space: pre-wrap; /* Allow wrapping */
-    text-align: right; /* Align the text to the right */
-    margin: 0;
-    padding-right: 10px; /* Add a small padding */
-}
-
-.numbers {
-    border: 2px solid black;
-    margin: 10px;
-    width: 370px;
-    height: 450px;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.btn {
-    height: 80px;
-    width: 80px;
-    border: 2px solid black;
-    margin: 3px;
-    background-color: gray;
-    color: white;
-    font-size: xx-large;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-    border-radius: 10px;
-}
-
-/* Button active state */
-.btn:active {
-    transform: scale(1.1);
-}
-
-/* Change cursor to pointer when hovering over numbers */
-.numbers:hover {
-    cursor: pointer;
-}
-
-/* Equal button styling */
-.equal {
-    height: 80px;
-    width: calc(100% - 10px); /* Adjust to match the width minus margins */
-    border: 2px solid black;
-    margin: 5px;
-    background-color: #4CAF50; /* Green for equal button */
-    color: white;
-    font-size: xx-large;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-    border-radius: 10px;
-}
+ 
