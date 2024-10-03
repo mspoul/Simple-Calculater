@@ -21,6 +21,7 @@
     justify-content: right; 
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
+    flex-wrap:wrap;
 
 }
 .numbers{
