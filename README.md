@@ -1,1 +1,2 @@
 # Simple-Calculater
+This project is a basic calculator application built using HTML, CSS, and JavaScript. It performs simple arithmetic operations such as addition, subtraction, multiplication, and division. The interface is user-friendly, and the calculator allows users to input numbers and perform calculations in real-time. It's a great beginner project to understand how to handle basic mathematical logic and DOM manipulation in JavaScript.
