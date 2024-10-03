@@ -52,8 +52,11 @@
 }
 .btn:active{
     transform: scale(1.1);
-     cursor: pointer;
+     
     
+}
+numbers:hover{
+     cursor: pointer;
 }
 .equal{
     height: 70px;;
